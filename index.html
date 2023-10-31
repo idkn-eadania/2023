@@ -1,26 +1,55 @@
 <!doctype html>
 <html>
 <head>
+    
+    
 <meta charset="utf-8">
 <title>Min test hjemmeside</title>
+    <style>
+        p {
+            background: black; 
+        }
+        
+        #test {
+            color: pink; 
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-    <br>
-    <p> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<h1>Hello World!</h1>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+<br>
+<p id="test"> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
     <!-- unordered list -->
-    <ol>
+<ol>
         <li>en</li>
         <li>to</li>
         <li>tre</li>
-    </ol>
-    <hr>
-    <ul>
+</ol>
+<hr>
+<ul>
         <li>en</li>
         <li>to</li>
         <li>tre</li>
-    </ul>
+</ul>
+    
+<table>
+        <tr>
+            <th style="border: 1px solid black">Uge 44</th>
+            <td style="border: 1px solid black">Mandag</td>
+            <td style="border: 1px solid black">Tirsdag</td>
+            <td rowspan="2" style="border: 1px solid black">Onsdag</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black">Uge 44</th>
+            <td colspan="2" style="border: 1px solid black">Mandag</td>
+        </tr>
+</table>
+    <div>
+<a class="billede" id="1" href="https://www.lipsum.com/" target="_blank"><img src="Img/1.jpg" loading="lazy" alt="Billede 1"/></a>
+<p>Klik <a href="#test">her</a> for at se mere</p>
+        </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8UuS3GbijE?si=e_650BUPtUAtOXbU" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
